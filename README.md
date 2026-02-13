@@ -14,7 +14,7 @@
 
 | Версия | Описание | Ссылка |
 |--------|----------|--------|
-| v1.0 | Первая стабильная версия | [Скачать](https://github.com/lebedevaleksej854-eng/GUI_Terminal/releases/tag/v1.0) |
+| v1.0 | Первая стабильная версия | [Скачать](https://github.com/lebedevaleksej854-eng/GUI_Terminal/releases/tag/terminal_v1.0) |
 
 *(новые версии будут добавляться сюда)*
 
