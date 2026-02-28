@@ -19,7 +19,8 @@
 
 | Версия | Статус | Ссылка для скачивания |
 | :---: | :---: | :---: |
-| **v1.2** | Последнее обновление | [Скачать .exe](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.2) |
+| **v1.3** | Последнее обновление | [Скачать .exe](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.3) |
+| v1.2 | Устаревшая версия | [Скачать .exe](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.2) |
 | v1.1 | Устаревшая версия | [Скачать .exe](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.1) |
 | v1.0 | Устаревшая версия | [Скачать .exe](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.0) |
 
@@ -27,7 +28,7 @@
 
 | Версия | Статус | Ссылка для скачивания |
 | :---: | :---: | :---: |
-| **v1.6.0** | Следите за обновлениями | скоро |
+| **v1.6.0** | Следите за обновлениями | Скоро |
 
 > **Примечание:** Начиная с версии 1.2.0, все новые выпуски будут включать **оба** варианта: и портативный `.exe`, и установщик.
 
