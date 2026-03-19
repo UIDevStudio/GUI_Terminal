@@ -2,40 +2,45 @@
 
 <p align="center">
   <b>Терминал с графическим интерфейсом</b><br>
-  <i>Готовое решение, не требующее установки Python.</i>
 </p>
 
 ---
 
 ## ✨ О программе
 
-**GUI Terminal** — это удобная графическая оболочка для командной строки. Программа позволяет работать с терминалом в современном интерфейсе, избавляя пользователя от необходимости устанавливать интерпретаторы Python или дополнительные зависимости.
+**GUI Terminal** — это современная графическая оболочка над командной строкой, которая кардинально меняет привычный подход к работе с командами операционной системы. Терминал обладает богатым визуальным интерфейсом, что делает взаимодействие с компьютером проще и эффективнее. Приложение может выступать в роли "помощника", который объясняет, подсказывает, предупреждает об ошибках и качестченно структурирует информацию.
+
+> **Все актуальные и архивные версии доступны на [странице релизов](https://github.com/UIDevStudio/GUI_Terminal/releases).**
 
 ---
 
 ## ⚙️ Варианты установки
 
-### 📦 Вариант 1: Портативная версия (без установки)
+<details>
+  <summary><h3>📦 Портативная версия (GUI_Terminal.exe)<h3></summary>
 
-| Версия | Статус | Ссылка для скачивания |
-| :---: | :---: | :---: |
-| **v1.6** | Последнее обновление | [Скачать .exe](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.6) |
-| v1.5 | Устаревшая версия | [Скачать .exe](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.5) |
-| v1.4 | Устаревшая версия | [Скачать .exe](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.4) |
-| v1.3 | Устаревшая версия | [Скачать .exe](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.3) |
-| v1.2 | Устаревшая версия | [Скачать .exe](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.2) |
-| v1.1 | Устаревшая версия | [Скачать .exe](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.1) |
-| v1.0 | Устаревшая версия | [Скачать .exe](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.0) |
+| Версия | Статус | Ссылка на релиз | Ссылка на файл |
+| :---: | :---: | :---: | :---: |
+| **v1.6** | Последнее обновление | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.6) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.6/GUI_Terminal.exe) |
+| v1.5 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.5) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.5/GUI_Terminal.exe) |
+| v1.4 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.4) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.4/GUI_Terminal.exe) |
+| v1.3 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.3) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.3/GUI_Terminal.exe) |
+| v1.2 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.2) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.2/GUI_Terminal.exe) |
+| v1.1 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.1) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.1/GUI_Terminal.exe) |
+| v1.0 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.0) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.0/GUI_Terminal.exe) |
 
-### 📦 Вариант 2: Полноценный установщик (рекомендуется)
+> **Примечание.** После обновления 1.8.0 текущие версии станут архивными.
 
-| Версия | Статус | Ссылка для скачивания |
-| :---: | :---: | :---: |
-| **v1.8.0** | Следите за обновлениями | Скоро |
+</details>
 
-> **Примечание:** Начиная с версии 1.8.0, все новые выпуски будут включать **оба** варианта: и портативный `.exe`, и установщик.
+<details>
+  <summary><h3>📦 Полноценный установщик (GUI_Terminal_Installer.exe)<h3></summary>
 
-Все актуальные и архивные версии доступны на [странице релизов](https://github.com/UIDevStudio/GUI_Terminal/releases).
+| Версия | Статус | Ссылка на релиз | Ссылка на файл |
+| :---: | :---: | :---: | :---: |
+| **v1.8.0** | Последнее обновление | [Ознакомиться]() | [Скачать]() |
+
+</details>
 
 ---
 
@@ -43,27 +48,14 @@
 
 Антивирус может реагировать на `.exe` файл. Это обычная ситуация для многих сборок под Windows, так как антивирусы часто помечают неподписанные исполняемые файлы. Если вы сомневаетесь в безопасности, всегда можете:
 > - Проверить файл на [VirusTotal](https://www.virustotal.com).
-> - Изучить исходный код в репозитории и запустить приложение самостоятельно.
 
 ---
 
 ## 💻 Требования к системе
 
-- **Операционная система:** Windows 7, 8, 10, 11 (64-bit)
+- **Операционная система:** Windows 64-bit
 - **Оперативная память:** от 512 МБ
 - **Место на диске:** ~50 МБ
-
----
-
-## 📖 Документация
-
-*Будет добавлено позже.*
-
----
-
-## 📫 Обратная связь
-
-*Будет добавлено позже.*
 
 ---
 
