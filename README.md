@@ -21,7 +21,8 @@
 
 | Версия | Статус | Ссылка на релиз | Ссылка на файл |
 | :---: | :---: | :---: | :---: |
-| **v1.6** | Последнее обновление | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.6) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.6/GUI_Terminal.exe) |
+| **v1.7** | Последнее обновление | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.7) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.7/GUI_Terminal.exe) |
+| v1.6 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.6) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.6/GUI_Terminal.exe) |
 | v1.5 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.5) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.5/GUI_Terminal.exe) |
 | v1.4 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.4) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.4/GUI_Terminal.exe) |
 | v1.3 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.3) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.3/GUI_Terminal.exe) |
