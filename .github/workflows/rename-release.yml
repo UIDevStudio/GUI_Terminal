@@ -1,0 +1,95 @@
+name: Test rename one old release asset
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "terminal_v1.0"
+        required: true
+        type: string
+      old_name:
+        description: "GUI_Terminal.exe"
+        required: true
+        default: "GUI_Terminal.exe"
+        type: string
+      new_name:
+        description: "GUI Terminal.exe"
+        required: true
+        default: "GUI Terminal.exe"
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  rename-one-asset:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Resolve release by tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          TAG: ${{ inputs.tag }}
+        run: |
+          gh api \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "repos/$REPO/releases/tags/$TAG" > release.json
+
+          echo "Release:"
+          jq '{id, tag_name, name}' release.json
+
+          RELEASE_ID=$(jq -r '.id' release.json)
+          echo "RELEASE_ID=$RELEASE_ID" >> "$GITHUB_ENV"
+
+      - name: Fetch assets for this release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          RELEASE_ID: ${{ env.RELEASE_ID }}
+        run: |
+          gh api \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "repos/$REPO/releases/$RELEASE_ID/assets" > assets.json
+
+          echo "Assets before rename:"
+          jq -r '.[] | "- \(.name) (id=\(.id))"' assets.json
+
+      - name: Rename exactly one asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          OLD_NAME: ${{ inputs.old_name }}
+          NEW_NAME: ${{ inputs.new_name }}
+        run: |
+          ASSET_ID=$(jq -r --arg OLD_NAME "$OLD_NAME" '.[] | select(.name==$OLD_NAME) | .id' assets.json | head -n 1)
+
+          if [ -z "$ASSET_ID" ] || [ "$ASSET_ID" = "null" ]; then
+            echo "Не найден asset с именем: $OLD_NAME"
+            exit 1
+          fi
+
+          echo "Переименовываю asset id=$ASSET_ID: $OLD_NAME -> $NEW_NAME"
+
+          gh api \
+            --method PATCH \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "repos/$REPO/releases/assets/$ASSET_ID" \
+            -f name="$NEW_NAME"
+
+      - name: Verify result
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          RELEASE_ID: ${{ env.RELEASE_ID }}
+        run: |
+          gh api \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "repos/$REPO/releases/$RELEASE_ID/assets" > assets_after.json
+
+          echo "Assets after rename:"
+          jq -r '.[] | "- \(.name) | \(.browser_download_url)"' assets_after.json
