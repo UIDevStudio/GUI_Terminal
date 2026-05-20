@@ -1,4 +1,4 @@
-# <p align="center">🖥️ GUI Terminal</p>
+# <p align="center">🖥️ ViperTerm</p>
 
 <p align="center">
   <b>Терминал с графическим интерфейсом</b><br>
@@ -8,39 +8,41 @@
 
 ## ✨ О программе
 
-**GUI Terminal** — это современная графическая оболочка над командной строкой, которая кардинально меняет привычный подход к работе с командами операционной системы. Терминал обладает богатым визуальным интерфейсом, что делает взаимодействие с компьютером проще и эффективнее. Приложение может выступать в роли "помощника", который объясняет, подсказывает, предупреждает об ошибках и качестченно структурирует информацию.
+**ViperTerm** — это современная графическая оболочка над командной строкой, которая кардинально меняет привычный подход к работе с командами операционной системы. Терминал обладает богатым визуальным интерфейсом, что делает взаимодействие с компьютером проще и эффективнее. Приложение может выступать в роли "помощника", который объясняет, подсказывает, предупреждает об ошибках и качестченно структурирует информацию.
 
-> **Все актуальные и архивные версии доступны на [странице релизов](https://github.com/UIDevStudio/GUI_Terminal/releases).**
+> **Все актуальные и архивные версии доступны на [странице релизов](https://github.com/UIDevStudio/ViperTerm/releases).**
 
 ---
 
 ## ⚙️ Варианты установки
 
 <details>
-  <summary><h3>📦 Портативная версия (GUI_Terminal.exe)<h3></summary>
+  <summary><h3>📦 Портативная версия (GUI_Terminal.exe \ ViperTerm.exe)<h3></summary>
 
 | Версия | Статус | Ссылка на релиз | Ссылка на файл |
 | :---: | :---: | :---: | :---: |
-| **v1.8** | Последнее обновление | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.8) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.8/GUI_Terminal.exe) |
-| v1.7 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.7) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.7/GUI_Terminal.exe) |
-| v1.6 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.6) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.6/GUI_Terminal.exe) |
-| v1.5 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.5) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.5/GUI_Terminal.exe) |
-| v1.4 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.4) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.4/GUI_Terminal.exe) |
-| v1.3 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.3) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.3/GUI_Terminal.exe) |
-| v1.2 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.2) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.2/GUI_Terminal.exe) |
-| v1.1 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.1) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.1/GUI_Terminal.exe) |
-| v1.0 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/GUI_Terminal/releases/tag/terminal_v1.0) | [Скачать](https://github.com/UIDevStudio/GUI_Terminal/releases/download/terminal_v1.0/GUI_Terminal.exe) |
-
-> **Примечание.** После обновления 1.8.0 текущие версии станут архивными.
+| **v2.1** | Beta версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v2.1) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v2.1/ViperTerm.exe) |
+| v2.0 | Последнее обновление | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v2.0) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v2.0/ViperTerm.exe) |
+| v1.9 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v1.9) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v1.9/GUI_Terminal.exe) |
+| v1.8 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v1.8) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v1.8/GUI_Terminal.exe) |
+| v1.7 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v1.7) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v1.7/GUI_Terminal.exe) |
+| v1.6 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v1.6) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v1.6/GUI_Terminal.exe) |
+| v1.5 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v1.5) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v1.5/GUI_Terminal.exe) |
+| v1.4 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v1.4) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v1.4/GUI_Terminal.exe) |
+| v1.3 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v1.3) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v1.3/GUI_Terminal.exe) |
+| v1.2 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v1.2) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v1.2/GUI_Terminal.exe) |
+| v1.1 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v1.1) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v1.1/GUI_Terminal.exe) |
+| v1.0 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v1.0) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v1.0/GUI_Terminal.exe) |
 
 </details>
 
 <details>
-  <summary><h3>📦 Полноценный установщик (GUI_Terminal_Installer.exe)<h3></summary>
+  <summary><h3>📦 Полноценный установщик (ViperTerm_Installer.exe)<h3></summary>
 
 | Версия | Статус | Ссылка на релиз | Ссылка на файл |
 | :---: | :---: | :---: | :---: |
-| **v1.8.0** | Последнее обновление | [Ознакомиться]() | [Скачать]() |
+| **v2.1** | Beta версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v2.1) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v2.1/ViperTerm_Installer.exe) |
+| v2.0 | Последнее обновление | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v2.0) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v2.0/_Installer.exe) |
 
 </details>
 
