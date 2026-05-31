@@ -42,7 +42,7 @@
 
 | Версия | Статус | Ссылка на релиз | Ссылка на файл |
 | :---: | :---: | :---: | :---: |
-| **v2.2** | Актуальная версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v2.1) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v2.1/ViperTerm_Installer.exe) |
+| **v2.2** | Актуальная версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v2.2) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v2.2/ViperTerm_Installer.exe) |
 | v2.1 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v2.1) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v2.1/ViperTerm_Installer.exe) |
 | v2.0 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v2.0) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v2.0/ViperTerm_Installer.exe) |
 
