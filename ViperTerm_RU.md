@@ -1,3 +1,8 @@
+<p align="right">
+  <a href="ViperTerm_ENG.md">English</a> |
+  <strong>Русский</strong>
+</p>
+
 # <p align="center">🖥️ ViperTerm</p>
 
 <p align="center">
