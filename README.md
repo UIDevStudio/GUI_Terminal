@@ -26,7 +26,8 @@
 
 | Версия | Статус | Ссылка на релиз | Ссылка на файл |
 | :---: | :---: | :---: | :---: |
-| **v2.4** | Актуальная версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v2.4) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v2.4/ViperTerm.exe) |
+| **v2.5** | Актуальная версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v2.5) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v2.5/ViperTerm.exe) |
+| v2.4 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v2.4) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v2.4/ViperTerm.exe) |
 | v2.3 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v2.3) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v2.3/ViperTerm.exe) |
 | v2.2 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v2.2) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v2.2/ViperTerm.exe) |
 | v2.1 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v2.1) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v2.1/ViperTerm.exe) |
@@ -49,7 +50,8 @@
 
 | Версия | Статус | Ссылка на релиз | Ссылка на файл |
 | :---: | :---: | :---: | :---: |
-| **v2.4** | Актуальная версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v2.4) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v2.4/ViperTerm_Installer.exe) |
+| **v2.5** | Актуальная версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v2.5) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v2.5/ViperTerm_Installer.exe) |
+| v2.4 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v2.4) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v2.4/ViperTerm_Installer.exe) |
 | v2.3 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v2.3) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v2.3/ViperTerm_Installer.exe) |
 | v2.2 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v2.2) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v2.2/ViperTerm_Installer.exe) |
 | v2.1 | Устаревшая версия | [Ознакомиться](https://github.com/UIDevStudio/ViperTerm/releases/tag/terminal_v2.1) | [Скачать](https://github.com/UIDevStudio/ViperTerm/releases/download/terminal_v2.1/ViperTerm_Installer.exe) |
